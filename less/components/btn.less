@@ -1,0 +1,41 @@
+.btn{
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+
+	&--order{
+		text-align: center;
+		display: inline-block;
+		float: left;
+		border:5px solid darken(@pink, 10%);
+		padding: 10px 30px;
+		border-radius: 25px;
+		font-weight: 700;
+		color:#fff;
+		background: @pink;
+		cursor: pointer;
+		text-transform: uppercase;
+		&:hover{
+			background: lighten(@pink, 7%);
+			color:#fff;
+		}
+	}
+	&--close{
+			content:"";
+			display: block;
+			width: 32px;
+			height: 32px;
+			border-radius: 50%;
+			position: absolute;
+			top: -30px;
+			right: -30px;
+			background: @pink;
+			cursor:pointer;
+			.fa{
+				font-size: 28px;
+				color:#fff;
+				position: absolute;
+				top: 2px;
+				left: 5px;
+			}
+	}
+}

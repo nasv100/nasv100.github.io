@@ -1,0 +1,56 @@
+.title{
+	font-weight: 700;
+	text-transform: uppercase;
+	color:#000;
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+
+	&--h1{
+		text-align: left;
+		font-weight: 400;
+		font-size: 32px;
+		color: #fff;
+		margin-top: 50px;
+		background: @pink;
+		display: inline-block;
+		padding: 5px;
+		border-radius: 2px;
+		margin-bottom: 10px;
+		+span{
+			font-size: 50px;
+			font-weight: 700;
+			color: #fff;
+			display: block;
+			background: @pink;
+			width: 300px;
+			text-align: center;
+			border-radius: 2px;
+		}
+	}
+	&--h2{
+		text-align: left;
+		font-weight: 400;
+		font-size: 28px;
+		color: @text;
+		margin-top: 50px;
+		font-weight: 300;
+		text-transform: none;
+		padding-left: 25px;
+		position: relative;
+		&::after{
+			content: "";
+			display: block;
+			width: 7px;
+			height: 100%;
+			background: @pink;
+			position: absolute;
+			left: 0;
+			top: 0;
+			border-radius: 3px;
+		}
+	}
+	&--form{
+		font-size: 28px;
+		color:@pink;
+	}
+}
