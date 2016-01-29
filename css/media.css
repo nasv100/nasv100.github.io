@@ -1,8 +1,28 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+  .row {
+    padding: 0 15px;
+  }
   .page-header__content {
     margin-top: 0;
     padding-top: 90px;
+  }
+  .page-header__content .phone {
+    width: 100%;
+    text-align: center;
+  }
+  .page-header__content .text {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .page-header__content .text span {
+    font-weight: 700;
+  }
+  .page-header div.btn--order {
+    width: 300px;
+    float: none;
+    margin: 0 auto;
   }
   .menu {
     position: absolute;

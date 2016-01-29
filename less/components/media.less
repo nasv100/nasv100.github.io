@@ -4,13 +4,31 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	.row{
+		padding: 0 15px;
+	}
 	.page-header{
 		&__content{
 			margin-top: 0;
 			padding-top: 90px;
+			.phone{
+				width: 100%;
+				text-align: center;
+			}
+		.text{
+			width: 100%;
+			text-align: center;
+			margin-bottom: 20px;
+				span{
+					font-weight: 700;
+				}
+			}
 		}
-		
+		div.btn--order{
+			width: 300px;
+			float: none;
+			margin: 0 auto;
+		}
 	}
 	.menu{
 		position: absolute;

@@ -32,7 +32,9 @@ body {
   font-size: 36px;
   font-weight: 700;
   float: left;
-  margin-right: 60px;
+  display: inline-block;
+  width: 330px;
+  padding: 0;
 }
 .page-header__content .text {
   color: #212121;
@@ -41,6 +43,7 @@ body {
   display: inline-block;
   text-align: right;
   float: left;
+  width: 270px;
   margin-right: 20px;
 }
 .page-header__content .text span {
@@ -203,7 +206,8 @@ nav.menu-hidden {
 }
 .btn--order {
   text-align: center;
-  display: inline-block;
+  display: block;
+  width: 160px;
   float: left;
   border: 5px solid #c1134e;
   padding: 10px 30px;
