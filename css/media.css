@@ -3,6 +3,16 @@
   .row {
     padding: 0 15px;
   }
+  .title--h1 {
+    text-align: center;
+  }
+  .title--h1 + span {
+    float: none;
+    margin: 0 auto;
+  }
+  .title--h2 {
+    font-size: 22px;
+  }
   .page-header__content {
     margin-top: 0;
     padding-top: 90px;

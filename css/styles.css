@@ -173,6 +173,7 @@ nav.menu-hidden {
   text-transform: none;
   padding-left: 25px;
   position: relative;
+  max-width: 600px;
 }
 .title--h2::after {
   content: "";
