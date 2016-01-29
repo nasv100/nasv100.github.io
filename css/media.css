@@ -49,12 +49,6 @@
   }
   .menu__item:last-child .btn--menu {
     display: block;
-    float: right;
-    width: 40px;
-    height: 40px;
-    margin: 10px;
-    background: #fff;
-    cursor: pointer;
   }
 }
 /* Small Devices, Tablets */

@@ -242,6 +242,27 @@ nav.menu-hidden {
   top: 2px;
   left: 5px;
 }
+.btn--menu {
+  display: block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  margin: 15px 0 10px 10px;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.btn--menu .fa {
+  font-size: 22px;
+  color: #e91e63;
+  line-height: 30px;
+}
+.btn--menu:hover {
+  background: #e91e63;
+}
+.btn--menu:hover .fa {
+  color: #fff;
+}
 .call {
   width: 100%;
   height: 100%;
