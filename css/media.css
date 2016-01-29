@@ -1,0 +1,37 @@
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.page-header__content{
+		margin-top: 0;
+	}
+	.menu{
+		position: relative;
+/*		top:-360px;
+		left: 0;*/
+	}
+	.menu .menu__list{
+		display: flex;
+		flex-direction:column;
+	}
+	.menu .menu__item{
+		text-align: center;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
