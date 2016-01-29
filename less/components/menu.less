@@ -10,13 +10,19 @@
 		padding: 0;
 		margin: 0;
 		list-style-type: none;
-		display: flex;
-		justify-content:space-around;
+		
 	}
 	&__item{
 		// float: left;
-
+		text-align: center;
+		&:last-child{
+			display: none;
+		}
 		
 
 	}
+}
+nav.menu-hidden{
+	position: relative;
+	top: 0;
 }

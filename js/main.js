@@ -27,7 +27,16 @@ $(document).ready(function() {
 		$(".call").toggleClass("show");
 	});
 
+	$(".btn--menu").click( function() {
+		$(".menu").toggleClass("menu-hidden");
+		if($(".menu").hasClass("menu-hidden")){
+			$(".page-header__content").css("padding-top", "30px");
+		} else {
+			$(".page-header__content").css("padding-top", "90px");
+		}
+	});
 
+	$(".menu ul a").mPageScroll2id();
 });
 
 $(window).load(function() {

@@ -20,6 +20,8 @@ body {
 }
 .page-header {
   width: 100%;
+  background: url("../img/copy.jpg") no-repeat;
+  background-size: cover;
 }
 .page-header__content {
   margin-top: 60px;
@@ -73,8 +75,16 @@ body {
   padding: 0;
   margin: 0;
   list-style-type: none;
-  display: flex;
-  justify-content: space-around;
+}
+.menu__item {
+  text-align: center;
+}
+.menu__item:last-child {
+  display: none;
+}
+nav.menu-hidden {
+  position: relative;
+  top: 0;
 }
 .text {
   font-weight: 400;
