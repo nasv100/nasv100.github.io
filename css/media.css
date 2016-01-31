@@ -50,7 +50,24 @@
   .menu__item:last-child .btn--menu {
     display: block;
   }
+  iframe {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
 }
 /* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  iframe {
+    max-width: 560;
+    max-height: 315;
+  }
+}
 /* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  iframe {
+    max-width: 360px;
+    max-height: 210px;
+  }
+}
 /* Custom, iPhone Retina */
